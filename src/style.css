@@ -1,0 +1,51 @@
+body {
+  font-family: sans-serif;
+  padding: 20px;
+}
+
+.input-section {
+  margin-bottom: 20px;
+}
+
+.queue-container {
+  display: flex;
+  gap: 20px;
+}
+
+.queue-box {
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 100%;
+    margin: 0px;
+    background-color: white;
+    transform:box-shadow 0.3s ease
+}
+
+.queue-box h3 {
+  margin: 0 0 10px;
+  font-size: 16px;
+}
+
+.queue-box .card {
+  border: 1px solid #dee2e6;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.queue-box:hover {
+  box-shadow: 1px 1px 5px rgba(36,36,0.1);  
+}
+
+#queueContainer {
+  width: 100%;
+  margin: 0;
+  display: inline-grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 15px
+}
+
+body{
+  overflow-x: hidden;
+  background-color: #ddd;
+}
